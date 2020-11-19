@@ -1,12 +1,15 @@
 # Platinum
 A Macintosh OS 9 Theme for macOS
 
+---
+
+# Install
 - make a backup of `/System/Library/CoreServices/SystemAppearance.bundle/Contents/Resources/{Dark}Graphite.car`
 - move the `GraphiteAppearance.car` file to `/System/Library/CoreServices/SystemAppearance.bundle/Contents/Resources/`
 - change `System Preferences => General => Accent color => Multicolor` to `Graphite`
 
 You will need to [disable macOS System Integrity Protection (rootless mode)](https://totalfinder.binaryage.com/sip#mark-how-to-install-totalfinder-by-turning-off-system-integrity-protection)
-- boot into recovery mode (Restart and hold `Command+R`)
+- boot into recovery mode (restart and hold `Command+R`)
 - open Terminal.app (`Utilities => Terminal` in the Menu Bar)
 - 'csrutil disable'
 - reboot
