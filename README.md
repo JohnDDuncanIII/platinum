@@ -1,8 +1,6 @@
 # Platinum
 A Macintosh OS 9 Theme for macOS
 
----
-
 # Install
 - make a backup of `/System/Library/CoreServices/SystemAppearance.bundle/Contents/Resources/{Dark}Graphite.car`
 - move the `GraphiteAppearance.car` file to `/System/Library/CoreServices/SystemAppearance.bundle/Contents/Resources/`
@@ -13,8 +11,6 @@ You will need to [disable macOS System Integrity Protection (rootless mode)](htt
 - open Terminal.app (`Utilities => Terminal` in the Menu Bar)
 - 'csrutil disable'
 - reboot
-
----
 
 # Screenshots
 ### About This Mac
@@ -68,8 +64,6 @@ Terminal.app
 ![s_min_max_dis](screenshots/s_min_max_dis.png)
 
 ![s_standard](screenshots/s_standard.png)
-
----
 
 # Tools
 https://blog.timac.org/2018/1018-reverse-engineering-the-car-file-format/
